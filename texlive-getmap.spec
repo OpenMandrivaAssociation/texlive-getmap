@@ -1,6 +1,6 @@
 Name:		texlive-getmap
 Version:	50589
-Release:	1
+Release:	2
 Summary:	Download OpenStreetMap maps for use in documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/getmap
