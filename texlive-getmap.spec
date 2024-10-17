@@ -3,7 +3,7 @@ Version:	50589
 Release:	2
 Summary:	Download OpenStreetMap maps for use in documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/getmap
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/getmap
 License:	lppl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/getmap.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/getmap.doc.r%{version}.tar.xz
