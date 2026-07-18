@@ -1,5 +1,6 @@
 %global tl_name getmap
 %global tl_revision 79618
+%global tl_bin_links getmapdl:%{_texmfdistdir}/scripts/getmap/getmapdl.lua
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(getmap.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The package provides a simple interface to OpenStreetMap, and to Google
